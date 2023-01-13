@@ -23,16 +23,19 @@ namespace WpfApp6
         {
             InitializeComponent();
             //Model.tb = TBCount;
-            Model.tbCombo = Znach;
-            Box.ItemsSource = Model.datalist;
+            ClassWindows.tbCombo = Znach;
+            Box.ItemsSource = ClassWindows.datalist;
         }
 
         private void BtnCount_Click(object sender, RoutedEventArgs e)
         {
 
+
+            int Result_0 = ClassWindows.Count_1 + ClassWindows.Count_2;
+            Result.Text = Result_0.ToString();
             //
-            int n;
-            n = 10;
+            //int n;
+            //n = 10;
         }
     }
 }

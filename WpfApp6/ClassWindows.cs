@@ -14,36 +14,36 @@ namespace WpfApp6
         public static List<string> datalist = new List<string> { "Сложение", "Вычитание", "Деление", "Умножение" };
 
         // блок для обращения к текстовым полям
-        //public static TextBlock tb1;
-        //public static TextBlock tb2;
+        public static TextBlock tb1;
+        public static TextBlock tb2;
         public static TextBlock tbCombo;
 
         // блок с бизнес-логикой
-        //public static int Count_1 // свойство для отображения числа в TextBlock
-        //{
-        //    get
-        //    {
-        //        return count;
-        //    }
-        //    set
-        //    {
-        //        count = value;
-        //        tb1.Text = count.ToString();
-        //    }
-        //}
+        public static int Count_1 // свойство для отображения числа в TextBlock
+        {
+            get
+            {
+                return count;
+            }
+            set
+            {
+                count = value;
+                tb1.Text = count.ToString();
+            }
+        }
 
-        //public static int Count_2 // свойство для отображения числа в TextBlock
-        //{
-        //    get
-        //    {
-        //        return count;
-        //    }
-        //    set
-        //    {
-        //        count = value;
-        //        tb2.Text = count.ToString();
-        //    }
-        //}
+        public static int Count_2 // свойство для отображения числа в TextBlock
+        {
+            get
+            {
+                return count;
+            }
+            set
+            {
+                count = value;
+                tb2.Text = count.ToString();
+            }
+        }
 
 
         public static int Combo  // свойтсво для отображения фамилии в Combobox

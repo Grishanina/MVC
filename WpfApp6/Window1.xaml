@@ -20,7 +20,7 @@
 
                 <Button Name="BtnCount" FontSize="18" Click="BtnCount_Click">Вычислить</Button>
                 <GroupBox Header="Результат:" FontSize="18">
-                    <TextBox FontSize="18"></TextBox>
+                    <TextBlock Name="Result" FontSize="18"></TextBlock>
                 </GroupBox>
             </StackPanel>
         </Grid>
